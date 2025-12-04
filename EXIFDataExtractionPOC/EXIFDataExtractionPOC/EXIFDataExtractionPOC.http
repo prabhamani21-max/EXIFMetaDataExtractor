@@ -1,0 +1,6 @@
+@EXIFDataExtractionPOC_HostAddress = http://localhost:5003
+
+GET {{EXIFDataExtractionPOC_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
