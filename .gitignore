@@ -6,6 +6,33 @@
 ## has more thorough IDE-specific entries.
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/Dotnet.gitignore
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+nupkg/
+ 
+# Visual Studio Code
+.vscode/
+ 
+# Rider
+.idea/
+ 
+# Visual Studio
+.vs/
+ 
+# Fleet
+.fleet/
+ 
+# Code Rush
+.cr/
+ 
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
 # Build results
 [Dd]ebug/
@@ -22,7 +49,10 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-
+[Oo]ut/
+msbuild.log
+msbuild.err
+msbuild.wrn
 # .NET Core
 project.lock.json
 project.fragment.lock.json
